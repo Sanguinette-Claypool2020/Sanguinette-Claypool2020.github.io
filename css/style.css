@@ -311,6 +311,10 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.03);
 }
 
+.qbootstrap-cover{
+	  background-position:center !important;
+}
+
 .qbootstrap-cover,
 .qbootstrap-hero {
   position: relative;
@@ -668,7 +672,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-countdown .section-heading h2 {
-    font-size: 30px;
+    font-size: 62px;
   }
 }
 #qbootstrap-countdown .section-heading .datewed {
@@ -1702,8 +1706,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   padding: 20px;
   color: white;
-  font-size:100px;
+  font-size:80px;
 }
+
+@media screen and (max-width: 768px) {
+	#days, #hours, #minutes, #seconds{
+    font-size:40px;
+	}
+}
+
 .measurement {
   display: block;
   font-size: 20px;
@@ -1715,6 +1726,16 @@ h1, h2, h3, h4, h5, h6 {
     margin:0 auto;
 	display: block;
   }
+	
+  .wedding-events .desc .icon i{
+		display: none;
+	}
+  .img-spacer {
+    padding-bottom:60px;
+  }
+	.img-responsive{
+		margin: 0 auto;
+	}
 }
 
 /*# sourceMappingURL=style.css.map */
