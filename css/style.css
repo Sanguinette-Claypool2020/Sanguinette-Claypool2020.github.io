@@ -41,7 +41,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Clicker Script", cursive;
+  font-family: 'Dancing Script', cursive;
   font-weight: 400;
 }
 
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 34px;
   padding-left: 0;
   color: #fff;
-  font-family: "Clicker Script", cursive;
+  font-family: 'Dancing Script', cursive;
 }
 #qbootstrap-header.navbar-fixed-top {
   position: fixed !important;
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
 .qbootstrap-cover .display-tc .holder span,
 .video-hero .display-tc .holder span {
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
 .qbootstrap-cover .display-tc .svg-sm .svg,
 .video-hero .display-tc .svg-sm .svg {
@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   font-weight: 400;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .holder span {
@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 400;
   font-size: 24px;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
 #qbootstrap-slider-hero .flexslider .slider-text > .slider-text-inner .date span {
   padding: 5px 20px;
@@ -621,7 +621,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-couple h3 {
   font-size: 34px;
-  font-family: "Clicker Script", cursive;
+  font-family: 'Dancing Script', cursive;
   color: #FF847C;
 }
 @media screen and (max-width: 768px) {
@@ -631,7 +631,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-couple span {
   color: #FF847C;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   text-transform: uppercase;
   font-size: 14px;
   border: 1px solid rgba(255, 132, 124, 0.3);
@@ -705,13 +705,13 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-countdown .countdown span {
   margin: 0 30px;
   display: inline-block;
-  font-family: "Clicker Script", cursive;
+  font-family: 'Dancing Script', cursive;
 }
 #qbootstrap-countdown .countdown small {
   display: block;
   font-size: 14px;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
   text-transform: uppercase;
 }
 #qbootstrap-countdown .display-over {
@@ -1094,7 +1094,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 0;
   font-size: 30px;
-  font-family: "Clicker Script", cursive;
+  font-family: 'Dancing Script', cursive;
   font-style: italic;
 }
 #qbootstrap-testimonials .arrow-thumb {
@@ -1138,7 +1138,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .groom-men h3 {
-  font-family: "Clicker Script", cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 28px;
 }
 
@@ -1544,8 +1544,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 30px 0 20px 0;
   color: #7f7f7f;
+  background: #f4f4f4;
 }
 #footer .copyright {
   margin-bottom: 0px;
@@ -1733,8 +1734,20 @@ h1, h2, h3, h4, h5, h6 {
   .img-spacer {
     padding-bottom:60px;
   }
-	.img-responsive{
+  .img-responsive{
 		margin: 0 auto;
+	}
+  .target-margin{
+		margin: -90px;
+	}
+  .amazon-margin{
+		margin: 23px;
+	}
+  .bbb-margin{
+		margin: -185px;
+	}
+	#qbootstrap-started{
+		padding: 4em 0 8em 0;
 	}
 }
 
