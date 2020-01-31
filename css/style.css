@@ -1734,8 +1734,10 @@ h1, h2, h3, h4, h5, h6 {
   .img-spacer {
     padding-bottom:60px;
   }
-  .img-responsive{
+  .img-responsive-correct{
+	  	width:250px;
 		margin: 0 auto;
+	  	display: block;
 	}
   .target-margin{
 		margin: -90px;
