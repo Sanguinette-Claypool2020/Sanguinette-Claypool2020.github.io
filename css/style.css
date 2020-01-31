@@ -1739,15 +1739,6 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 0 auto;
 	  	display: block;
 	}
-  .target-margin{
-		margin: -90px;
-	}
-  .amazon-margin{
-		margin: 23px;
-	}
-  .bbb-margin{
-		margin: -185px;
-	}
 	#qbootstrap-started{
 		padding: 4em 0 8em 0;
 	}
