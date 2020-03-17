@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -16,8 +16,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.8;
-  color: #777777;
-  color: #7f7f7f;
+  color: black;
   background: #fff;
   height: 100%;
   position: relative;
@@ -724,7 +723,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 110px;
 }
 .couple p {
-  color: white;
+  color: black;
 }
 .couple.groom {
   position: relative;
@@ -737,7 +736,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: black;
+  background: #efede7;
   z-index: -1;
 }
 .couple.bride {
@@ -751,7 +750,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: black;
+  background: #efede7;
   z-index: -1;
 }
 .couple img {
@@ -769,7 +768,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 .couple .desc h2 {
-  color: white;
+  color: black;
   font-size: 40px;
   margin-bottom: 30px;
 }
@@ -778,7 +777,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
-  color: white;
+  color: #000;
 }
 .timeline:before {
   top: 30px;
@@ -786,7 +785,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   content: " ";
   width: 1px;
-  border-right: 1px dashed black;
+  border-right: 1px dashed #7f7f7f;
   left: 50%;
   margin-left: 0px;
 }
@@ -863,11 +862,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: black;
+  background: #efede7;
   z-index: -1;
 }
 .timeline > li > .timeline-panel .overlay.overlay-2 {
-  background: black;
+  background: #efede7;
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
@@ -917,7 +916,7 @@ h1, h2, h3, h4, h5, h6 {
 .timeline-title {
   margin-top: 0;
   font-size: 34px;
-  color: white;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -1169,7 +1168,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   content: '';
-  background: #f4f4f4;
+  background: #f9f6f0;
   z-index: -1;
 }
 .wedding-events .desc h3 {
@@ -1345,7 +1344,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-press {
-  background: #f4f4f4;
+  background: #f9f6f0;
 }
 
 #qbootstrap-press .qbootstrap-press-item {
@@ -1393,7 +1392,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 10px 0;
   font-weight: 400;
   font-size: 20px;
-  color: #444;
+  color: black;
   position: relative;
 }
 #qbootstrap-press .qbootstrap-press-item .qbootstrap-press-text .qbootstrap-press-title .qbootstrap-border {
@@ -1561,7 +1560,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: black;
+  background: #9dacac;
   color: #fff;
   border: none !important;
 }
@@ -1626,8 +1625,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .social.social-circle a {
-  background: white;
-  color: black;
+  background: #9dacac;
+  color: white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1727,7 +1726,7 @@ h1, h2, h3, h4, h5, h6 {
     margin:0 auto;
 	display: block;
   }
-	
+
   .wedding-events .desc .icon i{
 		display: none;
 	}
