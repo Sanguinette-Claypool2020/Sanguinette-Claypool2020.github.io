@@ -66,6 +66,7 @@
 	</head>
 	<body>
 	<header role="banner" id="qbootstrap-header">
+
 		<div class="container">
 			<!-- <div class="row"> -->
 		    <nav class="navbar navbar-default">
@@ -79,8 +80,8 @@
 	            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
 	            <li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li>
 	            <li><a href="#" data-nav-section="story"><span>Their Story</span></a></li>
-	            <li><a href="#" data-nav-section="when-where"><span>When &amp; Where</span></a></li>
-	            <li><a href="#" data-nav-section="hotels"><span>Hotels</span></a></li>
+	            <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
+	            <li><a href="#" data-nav-section="hotel"><span>Hotel</span></a></li>
 	            <li><a href="#" data-nav-section="registry"><span>Registry</span></a></li>
 	          </ul>
 	        </div>
@@ -323,7 +324,7 @@
 		</div>
 	</div>-->
 
-	<div id="qbootstrap-when-where" data-section="when-where">
+	<div id="qbootstrap-when-where" data-section="rsvp">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-12">
@@ -344,9 +345,9 @@
 						<div class="ceremony-bg" style="background-image: url(images/weddingceremony.jpg);"></div>
 						<div class="desc">
 							<h3>Stone House of St. Charles</h3>
-							<p><a href="https://www.google.com/maps/place/Stone+House+of+St.+Charles/@38.7505281,-90.6159941,17z/data=!3m1!4b1!4m5!3m4!1s0x87ded616ca6925a9:0xd3a3ace3f7dfeaac!8m2!3d38.7505239!4d-90.6138001">4401 McClay Rd, St Charles, MO 63304</a></p>
+							<p><a href="https://www.google.com/maps/place/Stone+House+of+St.+Charles/@38.7505281,-90.6159941,17z/data=!3m1!4b1!4m5!3m4!1s0x87ded616ca6925a9:0xd3a3ace3f7dfeaac!8m2!3d38.7505239!4d-90.6138001">4401 McClay Road, Saint Charles, Missouri 63304</a></p>
 							<div class="row">
-								<div class="col-md-5 col-sm-12">
+								<div class="col-md-6 col-sm-12">
 									<div class="date">
 										<i class="icon-calendar"></i>
 										<span>Friday</span>
@@ -354,23 +355,58 @@
 									</div>
 								</div>
 
-								<div class="col-md-2 col-sm-12">
-									<div class="icon-tip">
-										<span class="icon"><i class="icon-heart-o"></i></span>
-									</div>
-								</div>
-
-								<div class="col-md-5 col-sm-12">
+								<div class="col-md-6 col-sm-12">
 									<div class="date">
 										<i class="icon-clock2"></i>
 										<span>Ceremony 5:30 PM</span>
-										<span>Cocktails Following Ceremony</span>
-										<span>Reception 6:30 PM</span>
+										<span>Cocktails 6:00 PM</span>
+										<span>Reception 7:00 PM</span>
 									</div>
 								</div>
 							</div>
 							<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
-							<p><a href="https://www.shofsc.com/" class="btn btn-primary btn-sm">Learn more</a></p>
+							<p><a href="https://withjoy.com/Claypool-Sanguinette/rsvp" class="btn btn-primary btn-sm">RSVP</a></p>
+							<p><a href="#" data-toggle="modal" data-target="#exampleModal">View Menu</a></p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Cocktail Hour & Reception Menu</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Cocktail Hour
+								<ul>
+									<li>Open Bar, includes Coca-Cola products and juices.</li>
+									<li>Cheese & Fruit Platters</li>
+								</ul>
+
+								Dinner Buffet
+								<ul>
+									<li>Salad</li>
+									<li>Grilled Chicken Spiedini</li>
+									<li>Beef Tenderloin</li>
+									<li>Pasta Con Broccoli</li>
+									<li>Green Beans</li>
+									<li>Rolls</li>
+								</ul>
+
+								Dessert
+								<ul>
+									<li>Wedding Cake</li>
+								</ul>
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -408,8 +444,6 @@
 			</div>
 		</div>
 	</div>
-
-
 
 	<!--<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style="background-image: url(images/cover_bg_1.jpg);">
 		<div class="overlay"></div>
@@ -495,14 +529,14 @@
 		</div>
 	</div>-->
 
-	<div id="qbootstrap-press" data-section="hotels">
+	<div id="qbootstrap-press" data-section="hotel">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12 text-center section-heading svg-sm colored">
 						<!--<img src="images/flaticon/svg/005-two.svg" class="svg" alt="">-->
-						<h2>Hotels</h2>
-						<p>Holiday Inn Express &amp; Suites St. Louis West-O'Fallon has been selected as the preferred hotel for guests. Rooms are being held at a discounted rate for guests who wish to book the preferred hotel.</p>
+						<h2>Hotel</h2>
+						<p>Holiday Inn Express &amp; Suites St. Louis West-O'Fallon has been selected as the preferred hotel for guests. Rooms are being held at a discounted rate for guests who wish to book a hotel.</p>
 						<div class="row">
 						<div class="col-md-10 col-md-offset-1 subtext">
 							<!--<h3></h3>-->
@@ -512,32 +546,16 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-sm-12">
+				<div class="col-md-offset-2 col-md-8 col-sm-12">
 					<div class="qbootstrap-press-item animate-box">
 						<div class="qbootstrap-press-text">
 							<img src="images/holidayinn.png" alt="">
 							<h3 class="h2 qbootstrap-press-title">Holiday Inn Express &amp; Suites St. Louis West-O'Fallon<span class="qbootstrap-border"></span></h3>
-							<p><a href="https://goo.gl/maps/CRMUNoviU3pvDMsT6">1175 Technology Drive, O'Fallon, Missouri 63368</a></p>
-							<p>Phone Number: <a href"tel:636-300-4844">(636) 300-4844</a></p>
-							<p>Group Code: CSW</p>
-							<p>Block Name: Claypool-Sanguinette Wedding</p>
-							<p>This hotel has a complimentary breakfast buffet every morning, indoor swimming pool, and is near the wedding venue.</p>
+							<p><a href="https://goo.gl/maps/CRMUNoviU3pvDMsT6">1175 Technology Drive, O'Fallon, Missouri 63368</a>
+						</br>Phone Number: <a href"tel:636-300-4844">(636) 300-4844</a></p>
+							<p>Use Group Code "CSW" or block name "Claypool-Sanguinette Wedding" to book your room.</p>
 							<p>Rooms start at $89 per night</p>
 							<p><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/o-fallon/ofltd/hoteldetail" class="btn btn-primary btn-sm">Book A Room</a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-6" col-sm-12>
-					<div class="qbootstrap-press-item animate-box">
-						<div class="qbootstrap-press-text">
-							<img src="images/staybridge.png" alt="">
-							<h3 class="h2 qbootstrap-press-title">Staybridge Suites O'Fallon Chesterfield<span class="qbootstrap-border"></span></h3>
-							<p><a href="https://goo.gl/maps/arRBmRRviQmuuZVU6">1155 Technology Drive, O'Fallon, Missouri 63368</a></p>
-							<p><bold>Phone Number: <a href="tel:636-300-0999">(636)300-0999</a></p>
-							<p>This hotel is next to the preferred hotel and may be suitable for guests looking for a more premium option. It includes breakfast every morning, has an outdoor swimming pool, and is near the wedding venue.</p>
-							<p>Rooms start at approximately $139 per night</p>
-							<p><a href="https://www.ihg.com/staybridge/hotels/us/en/o-fallon/oflmo/hoteldetail" class="btn btn-primary btn-sm">Book A Room</a></p>
 						</div>
 					</div>
 				</div>
@@ -623,7 +641,7 @@
 	<script>function makeTimer() {
 
 	//		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");
-		var endTime = new Date("7 August 2020 18:00:00 GMT-06:00");
+		var endTime = new Date("7 August 2020 17:30:00 GMT-06:00");
 			endTime = (Date.parse(endTime) / 1000);
 
 			var now = new Date();

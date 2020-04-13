@@ -3735,6 +3735,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
+  font-size:16px !important;
+  padding:16px 40px !important;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -6365,7 +6367,7 @@ button.list-group-item-danger.active:focus {
 
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 38px;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -6470,12 +6472,13 @@ button.close {
 }
 
 .modal-header .close {
-  margin-top: -2px;
+  margin-top: -38px;
 }
 
 .modal-title {
   margin: 0;
   line-height: 1.42857;
+  font-size:30px;
 }
 
 .modal-body {
