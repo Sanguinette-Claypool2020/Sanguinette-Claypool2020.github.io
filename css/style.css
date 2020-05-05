@@ -1747,4 +1747,21 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+.qbootstrap-covid{
+  background: #f9f6f0;
+}
+
+.qbootstrap-covid h2, .qbootstrap-covid p{
+  text-align: center;
+}
+
+.btnspacing{
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 992px) {
+  .btnspacing{
+    padding-top: 0px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
